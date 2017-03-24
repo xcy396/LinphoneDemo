@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="audio_bitrate_limit">
+        <item>10 kbits/s</item>
+        <item>15 kbits/s</item>
+        <item>20 kbits/s</item>
+        <item>36 kbits/s</item>
+        <item>64 kbits/s</item>
+        <item>128 kbits/s</item>
+    </string-array>
+
+    <string-array name="audio_bitrate_limit_values">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>36</item>
+        <item>64</item>
+        <item>128</item>
+    </string-array>
+
+    <string-array name="video_size">
+        <item>720p</item>
+        <item>VGA</item>
+        <item>CIF</item>
+        <item>QVGA</item>
+        <item>QCIF</item>
+    </string-array>
+
+    <string-array name="video_size_values">
+        <item>720p</item>
+        <item>VGA</item>
+        <item>CIF</item>
+        <item>QVGA</item>
+        <item>QCIF</item>
+    </string-array>
+
+    <!--<string-array name="video_codecs">-->
+        <!--<item>VP8</item>-->
+        <!--<item>H264</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="video_codecs_values">-->
+        <!--<item>VP8</item>-->
+        <!--<item>H264</item>-->
+    <!--</string-array>-->
+</resources>

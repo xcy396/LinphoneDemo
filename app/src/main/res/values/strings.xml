@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LinphoneDemo</string>
+    <string name="sip_call">sip 呼叫测试</string>
+    <string name="settings">设置界面</string>
+</resources>

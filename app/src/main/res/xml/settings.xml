@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="账户">
+        <EditTextPreference
+            android:key="sip_account"
+            android:title="sip 账号"
+            android:summary="请输入sip 账号"/>
+        <EditTextPreference
+            android:key="sip_password"
+            android:title="密码"
+            android:summary="请输入密码"/>
+        <EditTextPreference
+            android:key="sip_server"
+            android:title="服务器"
+            android:summary="请输入服务器 IP 地址"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="视频">
+        <ListPreference
+            android:key="video_size"
+            android:title="视频尺寸"
+            android:entryValues="@array/video_size_values"
+            android:entries="@array/video_size"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="视频编码格式"
+        android:key="video_codecs">
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="音频">
+        <SwitchPreference
+            android:key="echo_cancellation"
+            android:title="回声消除"
+            android:defaultValue="true"/>
+        <SwitchPreference
+            android:key="adaptive_rate_control"
+            android:title="自适应速率控制"
+            android:defaultValue="true"/>
+        <ListPreference
+            android:key="bitrate_limit"
+            android:title="比特率"
+            android:entryValues="@array/audio_bitrate_limit_values"
+            android:entries="@array/audio_bitrate_limit"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="音频编码格式"
+        android:key="audio_codecs">
+    </PreferenceCategory>
+
+</PreferenceScreen>

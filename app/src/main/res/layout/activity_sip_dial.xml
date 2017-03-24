@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/sip_status"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/offline"/>
+
+            <EditText
+                android:id="@+id/dialing_number"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:cursorVisible="false"
+                android:gravity="center"
+                android:textColor="@color/dark_grey"
+                android:textSize="30sp"/>
+
+            <ImageView
+                android:id="@+id/dial_back"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="14dp"
+                android:layout_gravity="center_vertical"
+                android:visibility="invisible"
+                android:src="@drawable/dial_back"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/one"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:text="1"
+                    android:textSize="26sp"
+                    android:textColor="@color/dark_grey"
+                    style="@style/DialButton"
+                    android:layout_gravity="center"/>
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/two"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:text="2"
+                    android:textSize="26sp"
+                    android:textColor="@color/dark_grey"
+                    style="@style/DialButton"
+                    android:layout_gravity="center"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/three"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:text="3"
+                    android:textSize="26sp"
+                    android:textColor="@color/dark_grey"
+                    style="@style/DialButton"
+                    android:layout_gravity="center"/>
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/four"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:text="4"
+                    android:textSize="26sp"
+                    android:textColor="@color/dark_grey"
+                    style="@style/DialButton"
+                    android:layout_gravity="center"/>
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/five"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:text="5"
+                    android:textSize="26sp"
+                    android:textColor="@color/dark_grey"
+                    style="@style/DialButton"
+                    android:layout_gravity="center"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/six"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:text="6"
+                    android:textSize="26sp"
+                    android:textColor="@color/dark_grey"
+                    style="@style/DialButton"
+                    android:layout_gravity="center"/>
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/seven"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:text="7"
+                    android:textSize="26sp"
+                    android:textColor="@color/dark_grey"
+                    style="@style/DialButton"
+                    android:layout_gravity="center"/>
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/eight"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:text="8"
+                    android:textSize="26sp"
+                    android:textColor="@color/dark_grey"
+                    style="@style/DialButton"
+                    android:layout_gravity="center"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/nine"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:text="9"
+                    android:textSize="26sp"
+                    android:textColor="@color/dark_grey"
+                    style="@style/DialButton"
+                    android:layout_gravity="center"/>
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/star"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:text="*"
+                    android:textSize="26sp"
+                    android:textColor="@color/dark_grey"
+                    style="@style/DialButton"
+                    android:layout_gravity="center"/>
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/zero"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:text="0"
+                    android:textSize="26sp"
+                    android:textColor="@color/dark_grey"
+                    style="@style/DialButton"
+                    android:layout_gravity="center"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/sharp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:text="#"
+                    android:textSize="26sp"
+                    android:textColor="@color/dark_grey"
+                    style="@style/DialButton"
+                    android:layout_gravity="center"/>
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp">
+                <ImageView
+                    android:id="@+id/video_call"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/video_call"
+                    android:layout_gravity="center"/>
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp">
+                <ImageView
+                    android:id="@+id/dial"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/dial"
+                    android:layout_gravity="center"/>
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
